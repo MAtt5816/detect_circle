@@ -123,3 +123,5 @@ using (Graphics g = Graphics.FromImage(bmp))
     g.DrawEllipse(pen, x - radius, y - radius3, 2 * radius, 2 * radius3);
 }
 bmp.Save(directory + @"../../../out/out.png");
+
+Console.WriteLine("Plik wynikowy zapisany w folderze out");
